@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-  origin: "https://frontend-portal-turismo-lake.vercel.app/",
+  origin: "https://frontend-portal-turismo-lake.vercel.app",
   methods: [ 'GET','PUT','POST','DELETE'],
   credentials: true
 }));
